@@ -1,6 +1,8 @@
 package routers
 
 import (
+	"os"
+
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"
 	"github.com/vipindasvg/courserawebapp/controllers"
@@ -19,7 +21,8 @@ func InitRoutes() *echo.Echo {
 		l.SetHeader("${time_rfc3339} ${level}")
 	}
 
-	e.GET(versionpref+"/savecourses", controllers.SaveCourses)
+	e.POST(versionpref+"/savecourses", controllers.SaveCourses)
+	e.GET(versionpref+"/getcourses", controllers.GetCourses)
 
 	return e
 }

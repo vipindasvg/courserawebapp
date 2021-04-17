@@ -2,18 +2,12 @@ package common
 
 import (
 	"fmt"
-	"os"
-	"strconv"
-	"strings"
-	"sync"
-	"time"
 
 	nested "github.com/antonfisher/nested-logrus-formatter"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/sirupsen/logrus"
-	"github.com/vipindasvg/courserawebapp/models"
 )
 
 
