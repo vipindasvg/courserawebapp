@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/vipindasvg/common"
-	"github.com/vipindasvg/routers"
+	"github.com/vipindasvg/courserawebapp/common"
+	"github.com/vipindasvg/courserawebapp/routers"
 )
 
 var opts struct {

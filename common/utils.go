@@ -13,7 +13,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/sirupsen/logrus"
-	"github.com/vipindasvg/models"
+	"github.com/vipindasvg/courserawebapp/models"
 )
 
 
